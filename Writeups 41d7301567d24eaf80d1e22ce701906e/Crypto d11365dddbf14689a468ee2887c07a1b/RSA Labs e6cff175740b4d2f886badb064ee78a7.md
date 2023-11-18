@@ -54,6 +54,17 @@ RSA encryption is done using the formula,
 
 Ci = (Pi ** e) mod n
 
+- n is the product of two large prime numbers, p and q
+- phi = (p-1) (q-1)
+- Pi is the plaintext, represented as an integer
+- e is the public key, chosen such that 1 < e < phi and gcd(e,phi) = 1
+
+Decryption:
+
+Pi = (c ** d) mod n
+
+- d is the private key
+- d = 1 mod phi
 6.)
 
 ```python

@@ -148,51 +148,32 @@ m = pow(c, d, n)
 byte_data = m.to_bytes((m.bit_length() + 7) // 8, byteorder=‘big’)
 ```
 
-# Convert bytes to ASCII string
+# Convert the decrypted integer to bytes
 
 ```python
-decoded_message = byte_data.decode(‘utf-8’)
-print(decoded_message)
+byte_data = m.to_bytes(m.bit_length(), byteorder='big')
+print(byte_data)
 ```
-
 10.)
 
 ```python
 import gmpy2
-```
 
-# Given values
-
-```python
 n = 117074712749243314104120206523208828239739356370813271231812420842659757427553455282559371215875081681811753738135075574497504999188420518925155046235035751639404389071835553732113704031110653016113481332938049250611262071285422427426607831948727746419318269434949378088634570780979492584407323665357971118667 
 
 e = 3 
 
 ct = 82895006021025315212194766818959778180071540025724099235413209819072766522409462780959875360431145495518560461472745549100306588074106771552399979846135716227942541180509399193416
-```
 
-# Decrypt the ciphertext by taking the cube root
-
-```python
 decrypted_message = gmpy2.iroot(ct, 3)[0]
-```
 
-# Convert the decrypted mpz object to a regular Python integer
-
-```python
 decrypted_integer = int(decrypted_message)
-```
 
-# Convert the decrypted integer to bytes and decode it
+# Convert the decrypted integer to bytes
 
-```python
-decoded_message = decrypted_integer.to_bytes((decrypted_integer.bit_length() + 7) // 8, byteorder=‘big’).decode(‘utf-8’)
-```
+decoded_message = decrypted_integer.to_bytes((decrypted_integer.bit_length(), byteorder='big')
 
-# Print the decrypted message
-
-```python
-print(“Decrypted message:”) print(decoded_message)
+print(decoded_message)
 ```
 
 ### Flag 3: bi0s{y0u_H4v3_gR4dU4t3d}

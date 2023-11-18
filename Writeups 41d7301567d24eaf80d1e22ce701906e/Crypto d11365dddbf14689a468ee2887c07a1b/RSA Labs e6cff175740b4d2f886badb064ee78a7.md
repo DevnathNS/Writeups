@@ -65,6 +65,7 @@ Pi = (c ** d) mod n
 
 - d is the private key
 - d = 1 mod phi
+
 6.)
 
 ```python

@@ -89,16 +89,9 @@ print(decoded_message)
 
 7.)
 
-# Given values
-
 ```python
 p = 285880804885505715088365434821249117591 
 q = 223548505081667812376946559606986057893
-```
-
-# Calculate Euler’s Totient (φ)
-
-```python
 phi = (p - 1) * (q - 1)
 print(phi)
 ```

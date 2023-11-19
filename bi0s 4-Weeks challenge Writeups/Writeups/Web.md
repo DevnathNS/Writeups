@@ -1,0 +1,9 @@
+# Web
+
+[XSS](Web%206e4bfa7e46d9471f828f03ebb5e0a2bc/XSS%201f1c0d5765a84bbf885cf0c7547e2373.md)
+
+[SQLI Labs](Web%206e4bfa7e46d9471f828f03ebb5e0a2bc/SQLI%20Labs%20575885d46e084f1093bcc8ac4f334222.md)
+
+[SQL Injection](Web%206e4bfa7e46d9471f828f03ebb5e0a2bc/SQL%20Injection%20a84b9867bdbd418499f2c863206e03af.md)
+
+[Basics of Web](Web%206e4bfa7e46d9471f828f03ebb5e0a2bc/Basics%20of%20Web%204a907e63447743bc9760a645f721a152.md)

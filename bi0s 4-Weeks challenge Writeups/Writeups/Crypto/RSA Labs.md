@@ -34,7 +34,7 @@ n = int.from_bytes(b, "big")
 print(n)
 ```
 
-### Flag 1 - bi0s{M4tH_fr35h3R}
+### Flag 1: bi0s{M4tH_fr35h3R}
 
 5.)
 
@@ -92,7 +92,7 @@ phi = (p - 1) * (q - 1)
 print(phi)
 ```
 
-### **bi0s{RSA_b4s1c5_d0wN}**
+### **Flag 2: bi0s{RSA_b4s1c5_d0wN}**
 
 8.)
 
